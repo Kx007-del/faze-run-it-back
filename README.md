@@ -35,12 +35,12 @@ The default server accepts connections only from this computer. A localhost invi
 
 ## Agent ownership
 
-| Owner | Folder | Responsibility |
-| --- | --- | --- |
-| Gameplay | `packages/gameplay/` | Arena, controls, shot rules, replay capture and playback |
-| Challenges | `packages/challenges/` | Presets, distance selector and completion status UI |
-| Social & Replay | `packages/social/` | SQLite persistence, relay invitations, guest completion, API/client tests |
-| Integration lead | `src/`, `server/`, `shared/`, `public/`, root configuration | App screens, shared contracts, branding, integration and releases |
+| Owner            | Folder                                                      | Responsibility                                                            |
+| ---------------- | ----------------------------------------------------------- | ------------------------------------------------------------------------- |
+| Gameplay         | `packages/gameplay/`                                        | Arena, controls, shot rules, replay capture and playback                  |
+| Challenges       | `packages/challenges/`                                      | Presets, distance selector and completion status UI                       |
+| Social & Replay  | `packages/social/`                                          | SQLite persistence, relay invitations, guest completion, API/client tests |
+| Integration lead | `src/`, `server/`, `shared/`, `public/`, root configuration | App screens, shared contracts, branding, integration and releases         |
 
 Read AGENTS.md before editing. Agents only edit their assigned folders. Shared interfaces and dependencies go through the integration lead. Each agent's HANDOFF.md documents its work.
 

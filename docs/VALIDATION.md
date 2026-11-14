@@ -3,6 +3,7 @@
 ## Automated checks
 
 - TypeScript check and production bundle pass.
+- Production server smoke checks pass: home page serves built assets, health returns OK, and client routes return the app.
 - Nine tests pass: six gameplay-rule tests and three API/persistence tests.
 - Gameplay tests exercise airborne requirements, all supported target distances, 180/360 feasibility, insufficient spin, oscillation, and missed aim.
 - API tests exercise the actual HTTP lifecycle, frozen settings, duplicate completion, overwrite rejection, invalid submissions and SQLite persistence across restart.

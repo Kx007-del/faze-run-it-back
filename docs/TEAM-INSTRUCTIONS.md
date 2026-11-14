@@ -1,5 +1,15 @@
 # Team instructions
 
+## Open the app
+
+The preview on the development computer is http://127.0.0.1:5173.
+
+To restart later, open PowerShell in the project folder and run `npm.cmd run dev`. After downloading a fresh copy of the repository, run `npm.cmd install` once first. Keep that terminal open while playing.
+
+Repository: https://github.com/Kx007-del/faze-run-it-back (private).
+
+This release includes one rooftop arena. Fortnite-inspired and Valorant-inspired modes have not been built yet.
+
 ## Keep work separate
 
 1. Pull the latest main branch before starting a task.
